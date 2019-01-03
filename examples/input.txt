@@ -1,0 +1,2 @@
+Recall that we saw the Internet checksum being used in both transport-layer segment and in network-layer datagrams. Now consider a transport layer segment encapsulated in an IP datagram. Are the checksums in the segment header and datagram header computed over any common bytes in the IP datagram? Explain your answer.
+Only the IP datagram header is computed at the network layer and because this header is stripped before being passed to the transport layer the checksums of the two layers are not computed on any common bytes.
