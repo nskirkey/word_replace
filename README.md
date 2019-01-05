@@ -28,5 +28,5 @@ This script is run from command line and takes 1 argument (ipa: for IPA translat
   - There are others that could be implemented.
 
 * Implement GUI.
-
+  - Idea for more fleshed out app?
 * Optimize.
